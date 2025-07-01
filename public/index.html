@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche DARYL</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+    <script src="./components/graph.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://daryl-ai.com/wp-content/uploads/2025/04/DARYL_hwt.png" alt="Logo DARYL" class="logo">
+     </header>
+    <main>
+        <div class="search-container">
+            <div class="search-box">
+                <input name="search" type="text" class="search-input" placeholder="Rechercher...">
+                <div class="search-icons">
+                    <span class="icon">🔍</span>
+                 </div>
+            </div>
+            <div class="search-buttons">
+                <button id="btnSearch" class="search-button">Recherche DARYL</button>
+            </div>
+        </div>
+        <result-graph class="graph-component" id="graphComponent"></result-graph>
+    </main>
+    <script src="./dist/script.js"></script>
+</body>
+</html>
+

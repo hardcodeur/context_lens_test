@@ -1,0 +1,9 @@
+# Ignore test files and configs
+/tests
+/playwright-report
+jest.config.ts
+playwright.config.ts
+
+# Ignore git files
+.git
+.gitignore
