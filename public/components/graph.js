@@ -112,7 +112,7 @@ class Graph extends HTMLElement {
 
         #modal-title {
           margin-top: 0;
-          color: #6366F1;
+          color: #FFFFFF;
         }
 
         #modal-url {
@@ -124,6 +124,10 @@ class Graph extends HTMLElement {
 
         #modal-url:hover {
           text-decoration: underline;
+        }
+
+        #modal-content-text{
+          line-height: 1.5rem;
         }
       </style>
 
