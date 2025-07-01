@@ -25,7 +25,7 @@ Application de visualisation de graphes de connaissances basée sur les résulta
 4. **Accéder à l'application**
    Ouvrez votre navigateur à l'adresse : [http://localhost:3000](http://localhost:3000)
 
-## 🧪 Exécuter les tests
+## Lancer les tests
 
 Pour lancer les tests E2E (assurez-vous que l'application est en cours d'exécution) :
 
@@ -33,7 +33,7 @@ Pour lancer les tests E2E (assurez-vous que l'application est en cours d'exécut
 npm run e2e
 ```
 
-## 🛠️ Développement
+## Développement
 
 ### Prérequis
 
