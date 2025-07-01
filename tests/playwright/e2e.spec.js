@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Live Search Flow', () => {
 
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:3000/');
+    await page.goto("/");
   });
 
   test('should display the graph with API data', async ({ page }) => {
