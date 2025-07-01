@@ -6,8 +6,7 @@ Application de visualisation de graphes de connaissances basée sur les résulta
 
 1. **Cloner le dépôt**
    ```bash
-   git clone <votre-repo>
-   cd <nom-du-dossier>
+   git clone https://github.com/hardcodeur/context_lens_test.git
    ```
 
 2. **Configurer les variables d'environnement**
