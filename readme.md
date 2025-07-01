@@ -27,11 +27,19 @@ Application de visualisation de graphes de connaissances basée sur les résulta
 
 ## Lancer les tests
 
-Pour lancer les tests E2E (assurez-vous que l'application est en cours d'exécution) :
+1. Tests unitaires :
 
 ```bash
-npm run e2e
+npm run test
 ```
+
+2. Tests E2E :
+
+```bash
+npm run test:e2e
+```
+
+> ⚠️ **Important** : Assurez-vous que l'application est en cours d'exécution
 
 ## Développement
 
